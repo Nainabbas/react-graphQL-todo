@@ -1,0 +1,22 @@
+.addTodo{
+    max-width: 500px;
+    background-color: lightblue;
+    margin: auto;
+    margin-bottom: 20px;
+    h2 {
+        text-align: center;
+    }
+    .addForm {
+         display: flex;
+         padding: 5px;
+         border-bottom: 1px solid gray;
+         input, button {
+             height: 30px;
+             box-sizing: border-box;
+         }
+         input {
+             width: calc(100% - 90px);
+         }
+    }
+
+}

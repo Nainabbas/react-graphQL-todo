@@ -1,0 +1,28 @@
+.todos {
+    max-width: 500px;
+    background-color: lightblue;
+    margin: auto;
+    padding: 10px;
+    h2 {
+        text-align: center;
+    }
+    .todo {
+         display: flex;
+         justify-content: space-between;
+         padding: 5px;
+         border-bottom: 1px solid gray;
+         line-height: 30px;
+         font-size: 22px;
+         input {
+             margin: 0px 10px ;
+             height: 18px;
+             width: 18px;
+             cursor: pointer;
+         }
+         ._delete {
+            color: red;
+            cursor: pointer;
+        }
+    }
+
+}
